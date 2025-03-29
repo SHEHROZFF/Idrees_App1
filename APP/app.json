@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "HOC",
+    "slug": "HOC",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.taskmaster"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.jpg",
+        "backgroundColor": "#004242"
+      },
+      "package": "com.yourcompany.taskmaster",
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/favicon.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "699fd26b-ac3c-4d4e-91bb-31a09f851209"
+      }
+    }
+  }
+}
